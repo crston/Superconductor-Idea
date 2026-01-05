@@ -42,7 +42,6 @@ InGaAsN 내벽 파손 시 발생할 수 있는 비소(Arsenic) 유출 사고에 
 - **Mechanism:** 과축적(Hyperaccumulation) 원리를 이용하여 유출된 비소를 균사체 내에 격리, 수질 오염을 원천 차단한다.
 
 ## 4. Simulation Logic (시뮬레이션 로직)
-본 연구에 포함된 `main.py`는 위 이론을 바탕으로 작성된 시뮬레이터이다.
 - **Thermal Balance Loop:** 갈린스탄과 물 층 간의 열교환 계수 계산.
 - **Resource Cycle:** 에너지 출력에 비례한 수중 산소 발생량 산출.
 - **Safety Trigger:** 비소 누출 확률 변수에 따른 바이오 필터의 정화 효율 시뮬레이션.
@@ -55,12 +54,10 @@ InGaAsN 내벽 파손 시 발생할 수 있는 비소(Arsenic) 유출 사고에 
 ### 📂 Repository Structure
 ```bash
 Delta-Helix-Black-Diamond/
-├── main.py              # 통합 시뮬레이션 소스 코드
 ├── README.md            # 연구 개요 및 기술 명세서 (Current File)
-└── LICENSE              # MIT License
 🔗 Reference & Citation
 If you use this logical framework in your research, please cite this repository.
 
-Author: [Your Name / Github ID]
+Author: [crston]
 
 Project: Delta-Helix Black Diamond Engine Simulation
